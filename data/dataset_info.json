@@ -719,7 +719,7 @@
     "hf_hub_url": "HanningZhang/MLE-Policy-Trajectory",
     "formatting": "sharegpt",
     "columns": {
-      "messages": "messages"
+      "messages": "conversations"
     },
     "tags": {
       "role_tag": "role",
@@ -732,7 +732,7 @@
     "hf_hub_url": "HanningZhang/MLE-Reward-Rating",
     "formatting": "sharegpt",
     "columns": {
-      "messages": "messages"
+      "messages": "conversations"
     },
     "tags": {
       "role_tag": "role",
