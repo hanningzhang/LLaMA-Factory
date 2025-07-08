@@ -714,5 +714,31 @@
       "prompt": "content"
     },
     "folder": "python"
+  },
+  "mle-policy-sft": {
+    "hf_hub_url": "HanningZhang/MLE-Policy-Trajectory",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "mle-reward-sft": {
+    "hf_hub_url": "HanningZhang/MLE-Reward-Rating",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
   }
 }
