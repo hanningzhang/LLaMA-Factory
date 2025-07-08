@@ -1,3 +1,27 @@
+
+# Instruction
+
+#### Install from Source
+
+```bash
+git clone --depth 1 https://github.com/hiyouga/LLaMA-Factory.git
+cd LLaMA-Factory
+pip install -e ".[torch,metrics]" --no-build-isolation
+```
+
+#### Running SFT
+
+```bash
+llamafactory-cli train examples/train_full/qwen25_mle_policy.yaml
+llamafactory-cli train examples/train_full/qwen25_mle_reward.yaml
+```
+
+
+
+
+
+# Original Instruction from LLaMA-Factory
+
 ![# LLaMA Factory](assets/logo.png)
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/hiyouga/LLaMA-Factory?style=social)](https://github.com/hiyouga/LLaMA-Factory/stargazers)
